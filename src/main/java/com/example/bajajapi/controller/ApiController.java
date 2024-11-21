@@ -7,6 +7,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/bfhl")
+@CrossOrigin(origins = "https://radiant-palmier-d832c4.netlify.app/")
 public class ApiController {
 
     @GetMapping
